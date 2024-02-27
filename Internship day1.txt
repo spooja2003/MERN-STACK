@@ -1,0 +1,169 @@
+<!-- Webpage creation -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MAUVE PERFUMES</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">MAUVE</h2>
+                <style>
+                    h2 {text-align: center;} </style>   
+            
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+            <div class="search"></div>
+
+        </div> 
+        <div class="content">
+            <h1>Brands of perfumes</h1>
+            <p>mounika</p>
+            <span>pooja     </span><span>tdtfcfct</span>
+
+                <div class="form">
+                    <h3>Login Here</h3>
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <input type="password" name="" placeholder="Enter Password">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+        
+
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.javatpoint.com/java-tutorial" target="iframe_a">javatpointer.com</a></p>
+
+
+<img src="img_chania.jpg" alt="Flowers in Chania">
+
+
+<!-- unordered list -->
+<ul style="list-style-type:disc;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <ul style="list-style-type:square;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <ul style="list-style-type:circle;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <ul style="list-style-type:none;">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <!-- ordered list -->
+  <ol type="1">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <ol type="a">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <ol type="i">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+
+  <!-- descriptive list -->
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>
+
+<!--Table creation-->
+  <!DOCTYPE html>
+  <html>
+  <style>
+  table, th, td {
+    border:1px solid black;
+  }
+  </style>
+  <body>
+  <h2>A basic HTML table</h2>
+  <table style="width:100%">
+    <colgroup>
+        <col span="2" style="background-color: #D6EEEE">
+    </colgroup>
+    <colgroup>
+        <col span="1" style="background-color: pink">
+        <col span="1" style="background-color: rgb(127, 126, 124)">
+      </colgroup>
+    <tr>
+      <th colspan="2">Name</th>
+      <th>Phone no</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Mounika</td>
+      <td>Murugesan</td>
+      <td>2356745678</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Pooja</td>
+      <td>Senthilkumar</td>
+      <td>9870835456</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Vijaisree</td>
+      <td>Padmanabhan</td>
+      <td>2223456789</td>
+      <td>28</td>
+    </tr>
+  </table>
+  </body>
+  </html>
+  
