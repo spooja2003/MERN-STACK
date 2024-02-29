@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: #101010;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: rgb(240, 239, 239);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(173, 90, 252);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+}
+nav ul li a{
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(173, 90, 252);
+    transition: 0.4s;
+}
+.btn{
+    background-color: rgb(173, 90, 252);
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: rgb(240, 239, 239);
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: rgb(240, 239, 239);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(173, 90, 252);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(173, 90, 252);
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(173, 90, 252);
+    color: rgb(240, 239, 239);
+    box-shadow: 0px 0px 5px #191919, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: rgb(173, 90, 252);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: rgb(240, 239, 239);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(173, 90, 252);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(173, 90, 252);
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(173, 90, 252); 
+    cursor: pointer;
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(240, 239, 239);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 385px;
+    width: 355px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(173, 90, 252);
+}
+.card:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(173, 90, 252);
+}
+h5{
+    color: rgb(240, 239, 239);
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: rgb(173, 90, 252);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px
+}
+/* .card.button{
+    background-color: rgb(103, 252, 90);
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+ }  */
+.button:hover{
+    background-color: transparent;
+    /* background-color: rgb(173, 90, 252); */
+    /* border: 2px solid rgb(173, 90, 252); */
+    color: rgb(240, 239, 239);
+    cursor: pointer;
+
+    text-decoration: none;
+    border: 2px solid transparent;
+    
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: rgb(240, 239, 239);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: rgb(173, 90, 252);
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid rgb(173, 90, 252);
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(240, 239, 239);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: rgb(240, 239, 239);
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social {
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(173, 90, 252);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+} 
+.end{
+    position: absolute;
+    color: rgb(173, 90, 252);
+    bottom: 35px;
+    font-size: 14px;
+}
+
+
+
+
+/* Style for contact section */
+#contact {
+    padding: 50px 0;
+    background-color: #101010;/* Change the background color as needed */
+    
+}
+
+/* Style for map container */
+/* #embedmap-canvas {
+    position: relative;
+    padding-bottom: 100%; /* This creates a responsive aspect ratio (1:1) 
+    height: 0;
+    overflow: hidden;
+}
+
+#embedmap-canvas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+    padding-right: 100px;
+} */
+
+/* Style for form fields */
+/* .form-control {
+    border: 1px solid rgb(240, 239, 239);
+    border-radius: 0;
+    float: right; 
+    /* display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    padding-right: 100px;
+    /* margin-top: 50px;   
+   
+ }
+
+/* Style for the "Contact Me" button 
+.btn-success {
+    background-color: rgb(173, 90, 252);
+    border-color: rgb(173, 90, 252);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn-success:hover {
+    background-color: rgb(173, 90, 252);
+    border-color: rgb(173, 90, 252);
+}
+
+/* Style for margins 
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.2rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+} */
+
+.contact{
+    min-height: auto;
+    padding-bottom: 7rem;
+    color: rgb(240, 239, 239);
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .input-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box .input-field {
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    background-color:  #101010;
+    border-radius: .6rem;
+    border: .2rem solid rgb(173, 90, 252);
+} 
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder{
+    color: rgb(173, 90, 252);
+}
+
+.contact form .focus{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(173, 90, 252);
+    border-radius: .6rem;
+    z-index: -1;
+    transition: .5s;
+}
+
+.contact form .input-box .input-field input:focus~.focus,
+.contact form .input-box .input-field input:valid~.focus,
+.contact form .textarea-field textarea:focus~.focus,
+.contact form .textarea-field textarea:focus~.focus{
+    width: 100%;
+}
+
+.contact form .textarea-field{
+    position: relative;
+    margin: .8rem 0 2.7rem;
+    display: flex;
+}
+ .contact form .textarea-field textarea{
+    resize: none;
+ } 
+
+.contact form .btn-box.btns .btn{
+    cursor: pointer;
+}
